@@ -72,18 +72,18 @@ nav{
 	height: 50px;
 }
 
-ul{
+nav ul{
 	width: 50%;
 	margin: 0 auto;
 }
 
-li{
+nav li{
 	display: inline-block;
 	width: 32.9%;
 	text-align: center;
 }
 
-li a:link, li a:visited{
+nav li a:link, nav li a:visited{
 	display: block;
 
 	padding: 17px 30px;
@@ -94,7 +94,7 @@ li a:link, li a:visited{
 	text-decoration: none;
 }
 
-li a:hover, li a:active{
+nav li a:hover, nav li a:active{
 	background: #EB2E49;
 	color: #E7E7E7;
 	font-style: italic;

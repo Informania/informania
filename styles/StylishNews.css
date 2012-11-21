@@ -35,6 +35,10 @@ table {
 	border-spacing: 0;
 }
 
+a{
+	text-decoration: none;
+}
+
 /************************************************
 
 	Sandra Sosa
@@ -48,9 +52,6 @@ body{
 	background-repeat:repeat-x;
 }
 
-body a {
-        text-decoration: none;
-}
 
 h1, h2, h3, h4, h5, h6{
 	text-transform: uppercase; 
@@ -123,7 +124,7 @@ section h2{
 
 /* Article */
 article{
-	width: 1115px;
+	width: 85%;
 	margin: 0 auto 100px auto;
 	color: #E7E7E7;
 }
@@ -142,7 +143,7 @@ article span{
 
 article div{
 	background-image: url('../images/pattern/otis_redding/otis_redding.png');
-	width: 1050px;
+	width: 90%;
 	margin: -2px auto;
 	padding: 20px;
 }

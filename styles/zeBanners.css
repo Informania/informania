@@ -114,12 +114,12 @@ section h2{
 /* Article */
 article{
 	width: 1115px;
-	margin: 0 auto 70px auto;
+	margin: 0 auto 100px auto;
 	color: #E7E7E7;
 }
 
 article img{
-	box-shadow: 0 0 5px #CECECE;
+	box-shadow: 0 0 10px #888;
 }
 
 article span{
@@ -130,13 +130,10 @@ article span{
 }
 
 article div{
-	background-image: url('../images/pattern/diamond_upholstery/diamond_upholstery.png');
-	height: 280px;
+	background-image: url('../images/pattern/otis_redding/otis_redding.png');
 	width: 960px;
 	margin: 0 auto;
 	padding: 20px;
-
-
 }
 
 article h3{

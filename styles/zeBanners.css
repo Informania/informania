@@ -151,8 +151,12 @@ article p {
 }
 
 /****** HOW? **********************************/
+.howpage {
+        text-align: center;
+        }
+
 .how {
-        width: 215px;
+        width: 250px;
         display: inline-block;
 
         }

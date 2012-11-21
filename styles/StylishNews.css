@@ -126,6 +126,7 @@ article{
 
 article img{
 	box-shadow: 0 0 10px #888;
+	width: 100%;
 }
 
 article span{
@@ -196,6 +197,37 @@ footer a:link, footer a:visited{
 
 footer a:hover, footer a:active{
 	color: #EB2E49;
+}
+
+/***********RWD***********************************/
+@media print{
+   	nav {
+        display:none;
+    }
+   	section {
+        float:none;
+        width:100%;
+    }
+}
+
+@media screen and (max-width:490px){
+    section{
+        width:100%;
+    }
+}
+@media screen and (max-width:360px){
+    nav ul{
+        /*width:100%;*/
+    }
+}
+/* Bonus */
+@media screen and (min-width:1000px){
+    body{
+        font-size:1.1875em; /* 19px */
+    }
+    #content img{
+        width:100%; /* Snyggare, i detta fall */
+    }
 }
 
 

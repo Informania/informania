@@ -150,6 +150,18 @@ article p {
 	margin: 0 0 20px 0;
 }
 
+/****** HOW? **********************************/
+.how {
+        width: 215px;
+        display: inline-block;
+
+        }
+        article.how div {
+            display: inline-block;
+            width: 215px;
+        }
+
+
 /****** FOOTER **********************************/
 footer{
 	background: #333745;

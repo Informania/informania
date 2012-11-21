@@ -15,9 +15,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
 	line-height: 1;
 }
-        body a {
-                text-decoration: none;
-        }
 
 
 ol, ul {
@@ -46,6 +43,13 @@ table {
 
 body{
 	font-family: Helvetica, Arial, sans-serif;
+
+	background-image:url('../images/repeater.jpg');
+	background-repeat:repeat-x;
+}
+
+body a {
+        text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6{

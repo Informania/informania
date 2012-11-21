@@ -102,7 +102,7 @@ li a:hover, li a:active{
 
 /****** MAIN CONTENT ****************************/
 section{
-	background-image: url('../img/shattered/shattered.png');
+	background-image: url('../images/pattern/shattered/shattered.png');
 	padding: 30px 20px;
 
 }
@@ -130,7 +130,7 @@ article span{
 }
 
 article div{
-	background-image: url('../img/diamond_upholstery/diamond_upholstery.png');
+	background-image: url('../images/pattern/diamond_upholstery/diamond_upholstery.png');
 	height: 280px;
 	width: 960px;
 	margin: 0 auto;

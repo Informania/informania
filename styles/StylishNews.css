@@ -64,11 +64,11 @@ header{
 	background: url('../images/header.jpg');
 	background-repeat: no-repeat;
 	height: 300px;
+	width: 100%;
 }
 
 
 header h1{
-
 	padding: 200px 0 0 0;
 	text-align: center;
 	text-transform: lowercase; 
@@ -225,7 +225,12 @@ footer a:hover, footer a:active{
     nav ul{
         width:100%;
     }
+    header h1 {
+        font-size: 3em;
+        padding: 250px 0 0 0;
+    }
 }
+
 /* Bonus */
 @media screen and (min-width:1000px){
     body{

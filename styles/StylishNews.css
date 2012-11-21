@@ -223,6 +223,11 @@ footer a:hover, footer a:active{
     }
 }
 @media screen and (max-width:360px){
+
+	body{
+		background: none;
+	}
+
     nav ul{
         width:100%;
     }

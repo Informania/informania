@@ -154,10 +154,25 @@ article p {
 footer{
 	background: #333745;
 	border-top: 3px solid #EB2E49;
-	height: 200px;
+	height: 150px;
+	color: #E7E7E7;
+	text-align: center;
 }
 
+footer h2{
+	margin: 20px 0;
+}
 
+footer a:link, footer a:visited{
+	color: #E7E7E7;
+	font-size: 3em;
+	padding: 20px;
+	text-decoration: none;
+}
+
+footer a:hover, footer a:active{
+	color: #EB2E49;
+}
 
 
 

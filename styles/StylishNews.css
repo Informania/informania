@@ -96,13 +96,16 @@ nav li{
 
 nav li a:link, nav li a:visited{
 	display: block;
+	height: 33px;
 
-	padding: 17px 30px;
+	margin: 3px;
+	padding: 14px 0 0 0;
 
 	color: #333745;
 	font-weight: bold;
 	text-transform: uppercase; 
 	text-decoration: none;
+	vertical-align: center;
 }
 
 nav li a:hover, nav li a:active{
@@ -228,12 +231,24 @@ footer a:hover, footer a:active{
 		background: none;
 	}
 
+	header{
+		background: url('../images/header_mini.jpg');
+		height: 116px;
+	}
+
+	section{
+		padding: 0px;
+	}
+
     nav ul{
         width:100%;
     }
     header h1 {
         font-size: 3em;
-        padding: 250px 0 0 0;
+    }
+
+    article{
+    	margin: 100px 0;
     }
     footer a:link, footer a:visited{
 	color: #E7E7E7;

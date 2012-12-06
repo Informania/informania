@@ -94,6 +94,10 @@ nav li{
 	text-align: center;
 }
 
+#current{
+	border-bottom: 2px solid #EB2E49;
+}
+
 nav li a:link, nav li a:visited{
 	display: block;
 	height: 33px;
@@ -167,22 +171,35 @@ article p {
 }
 
 /****** HOW? **********************************/
-.howpage {
-        text-align: center;
-        }
 
-.how {
-        width: 250px;
-        display: inline-block;
-        text-align: left;
+#how{
 
 }
-        article.how div {
-            display: inline-block;
-            width: 215px;
-        }
 
+#how article{
+	width: 960px;
+	background: #E7E7E7;
+	color: #333745;
+	height: 250px;
+}
 
+#how article div{
+	padding: 25px;
+	background: none;
+	width: auto;
+}
+
+#how article img{
+	width: 250px;
+	height: 250px;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
 
 /****** FOOTER **********************************/
 footer{
@@ -270,6 +287,9 @@ footer a:hover, footer a:active{
 }
 
 
+.clear{
+	clear: both;
+}
 
 
 

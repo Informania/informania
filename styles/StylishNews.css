@@ -41,7 +41,7 @@ a{
 
 /************************************************
 
-	Sandra Sosa
+	Sandra Sosa is a hacker!
 
 *************************************************/
 
@@ -96,6 +96,7 @@ nav li{
 
 #current{
 	border-bottom: 2px solid #EB2E49;
+        color: #EB2E49;
 }
 
 nav li a:link, nav li a:visited{

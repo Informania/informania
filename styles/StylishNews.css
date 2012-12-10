@@ -273,7 +273,7 @@ footer a:hover, footer a:active{
     }
 
     article{
-    	margin: 100px 0;
+    	width: 100%;
     }
     footer a:link, footer a:visited{
 	color: #E7E7E7;

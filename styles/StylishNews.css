@@ -275,6 +275,10 @@ footer a:hover, footer a:active{
     article{
     	width: 100%;
     }
+
+    #how article{
+    	width: 100%;
+    }
     footer a:link, footer a:visited{
 	color: #E7E7E7;
 	font-size: 1.5em;

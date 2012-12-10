@@ -182,7 +182,6 @@ article p {
 }
 
 #how article{
-	width: 960px;
 	background: #E7E7E7;
 	color: #333745;
 	height: 250px;
@@ -278,6 +277,10 @@ footer a:hover, footer a:active{
 
     #how article{
     	width: 100%;
+    }
+    #how article img{
+    	width: 50px;
+    	height: 50px;
     }
     footer a:link, footer a:visited{
 	color: #E7E7E7;
